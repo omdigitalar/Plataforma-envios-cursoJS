@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Envío de Pedidos</title>
+</head>
+
+<body>
+  <h1>Envío de Pedidos</h1>
+  <form id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre completo" required>
+    <input type="text" id="direccion" placeholder="Dirección postal" required>
+    <input type="text" id="codigo" placeholder="Código postal" required>
+    <input type="text" id="dni" placeholder="DNI" required>
+    <input type="number" id="monto" placeholder="Monto del pedido" required>
+    <input type="number" id="peso" placeholder="Peso del paquete en kg" required>
+    <button type="submit">Generar Pedido</button>
+  </form>
+
+  <div id="mensaje"></div>
+
+  <button id="ver-pedidos">Ver Pedidos</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
